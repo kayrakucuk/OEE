@@ -1,0 +1,43 @@
+## .NET
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]64/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+artifacts/
+TestResults/
+*.coverage
+*.coverlet.json
+coverage*.xml
+coverage*.json
+
+## Rider / VS / VS Code
+.idea/
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+
+## Node (Phase 6 dashboard)
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+## Environment & secrets
+.env
+.env.*
+!.env.example
+*.pfx
+appsettings.Development.local.json
+
+## OS
+.DS_Store
+Thumbs.db

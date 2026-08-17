@@ -1,0 +1,11 @@
+# Normalise line endings so the container-mounted config files below never reach a
+# Linux image with CRLF in them.
+* text=auto eol=lf
+
+*.sln        text eol=crlf
+*.cmd        text eol=crlf
+*.ps1        text eol=crlf
+
+*.png        binary
+*.jpg        binary
+*.ico        binary
