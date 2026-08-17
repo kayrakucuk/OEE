@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Oee.Persistence</RootNamespace>
+    <AssemblyName>Oee.Persistence</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Oee.Domain\Oee.Domain.csproj" />
+  </ItemGroup>
+
+  <!--
+    Scaffolded migrations are generated code and are exempted from the solution's analyzer
+    rules by src/Oee.Persistence/Migrations/.editorconfig, not from here — NoWarn as item
+    metadata on Compile does not reach the compiler.
+  -->
+
+</Project>

@@ -1,0 +1,13 @@
+# Scaffolded by `dotnet ef migrations add`. This is generated code: it is not hand-edited,
+# and holding it to the same analyzer and style rules as the rest of the solution would
+# mean re-fixing it after every scaffold.
+#
+# The rest of Oee.Persistence stays strict — this exemption reaches only this folder.
+
+[*.cs]
+generated_code = true
+
+dotnet_analyzer_diagnostic.severity = none
+dotnet_diagnostic.IDE0161.severity = none
+dotnet_diagnostic.CA1861.severity = none
+dotnet_diagnostic.CS1591.severity = none
